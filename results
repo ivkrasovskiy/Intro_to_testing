@@ -79,3 +79,20 @@ collected 5 items
 issue-04.py .....                                                                                                                                                                                                                  [100%]
 
 =========================================================================================================== 5 passed in 0.01s ============================================================================================================
+----------------------------------------------------------------------
+(venv) (base) MSK-C02VL2NQHTD5:Intro to testing ivkrasovskiy$ coverage run -m unittest discover
+invalid format
+bye
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.006s
+
+OK
+(venv) (base) MSK-C02VL2NQHTD5:Intro to testing ivkrasovskiy$ coverage report -m
+Name                         Stmts   Miss  Cover   Missing
+----------------------------------------------------------
+issues/__init__.py               0      0   100%
+issues/what_is_year_now.py      19      0   100%
+test_issue_05.py                19      0   100%
+----------------------------------------------------------
+TOTAL                           38      0   100%

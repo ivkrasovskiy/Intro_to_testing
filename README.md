@@ -9,4 +9,7 @@ Testing unittest: python issue-03.py
 
 Testing pytest: python -m pytest issue-04.py
 
-Testing pytest issue-05: not ready, in progress
+Testing pytest issue-05:
+
+coverage run -m unittest discover
+coverage report -m
